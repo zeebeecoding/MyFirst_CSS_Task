@@ -1,0 +1,121 @@
+body {
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+#banner {
+  height: 1200px;
+  width: 100%;
+}
+.header {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  width: 100%;
+  display: inline;
+  border: 2px;
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.btn > button {
+  color: white;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.pic {
+  height: 200px;
+  width: 100%;
+  padding: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(7, 5, 15, 0.4)),
+    url(images/flex4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.btn1 {
+  width: 100%;
+  padding: 10px;
+  margin-right: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(128, 128, 128, 0.315);
+}
+.btn1 > button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.last {
+  margin: 4% 4% 0% 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstdiv {
+  width: 25%;
+  height: 70vh;
+  border: 5px;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.315);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: rgba(128, 128, 128, 0.315);
+}
+.top-padding {
+  margin-top: -25px;
+  text-align: center;
+}
+.top-padding > h4 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.firstdiv > textarea {
+  width: 180px;
+}
+button:hover {
+  color: red;
+}
+.seconddiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.seconddive-top {
+  width: 100%;
+}
+.seconddiv-bottom {
+  width: 100%;
+  min-height: 200px;
+  border: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: orange;
+  outline: 10px;
+}
+.im {
+  margin-top: -175px;
+  float: right;
+  height: 200px;
+  width: 250px;
+}
+.headings {
+}
+.headings > h4 {
+  padding-left: 10px;
+}
+.headings > h6 {
+  padding-left: 10px;
+}
+.headings > h2 {
+  color: orange;
+  padding-left: 10px;
+}
