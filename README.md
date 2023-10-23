@@ -1,4 +1,3 @@
-
 # MyFirst_CSS_Task
 
 This repository contains my first CSS task while learning CSS.
@@ -16,4 +15,6 @@ This is just a software house frontend assignment during my internship.
 
 Just View the CSS applied.
 
+## Deployed Link
 
+[View Deployed Project](https://disagreeable-governor.surge.sh/)
